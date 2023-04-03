@@ -1,0 +1,59 @@
+/* ((((((((((((---navbar.jsx---)))))))))))) */
+.mainNavbar {
+  background-color: transparent;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  padding-left: 224px;
+}
+
+.navbar {
+  background-color: rgb(17, 16, 16);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: 1125px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.doubleArrow {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Arrow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.registlog {
+  background-color: transparent;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#registration {
+  background-color: black;
+  color: aliceblue;
+  padding: 8px 32px 8px 8px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+#login {
+  background-color: whitesmoke;
+  color: black;
+  padding: 8px 32px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
