@@ -1,0 +1,127 @@
+* {
+	font-family: "" Circular ", sans-serif";
+}
+.sidebar {
+	background-color: rgb(18, 18, 18);
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 240px;
+	height: 100vh;
+}
+.image {
+	width: 200px;
+	height: 80px;
+}
+.logo {
+	width: 131px;
+	height: 40px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	height: 150px;
+}
+.fitur {
+	display: flex;
+	width: 100%;
+	padding-left: 25px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.sizeIcon {
+	width: 24px;
+	height: 24px;
+	color: rgb(189, 191, 193);
+}
+.sizeIcon:hover {
+	color: #fff;
+}
+.text {
+	/* font-size: 0.875rem; */
+	font-weight: 700;
+	font-weight: bold;
+	color: rgb(189, 191, 193);
+	padding-top: 3px;
+	padding-left: 20px;
+}
+.text:hover {
+	color: #fff;
+	transition: 0.3s;
+}
+.main .fitur .icon svg {
+	height: 24px;
+	width: 24px;
+}
+.main .fitur .icon svg:hover {
+	stroke: #fff;
+	transition: 0.2s;
+}
+.main2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	height: 100px;
+}
+.main2 .fitur {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.main2 .fitur .icon {
+	background-color: rgb(190, 190, 190);
+	padding: 5px;
+	height: 24px;
+	width: 24px;
+	border-radius: 3px;
+	/* background: linear-gradient(135deg, #450af5, #c4efd9); */
+}
+.main2 .fitur .iconLove {
+	/* background-color: rgb(190, 190, 190); */
+	padding: 5px;
+	height: 24px;
+	width: 24px;
+	border-radius: 3px;
+	background: linear-gradient(135deg, #450af5, #c4efd9);
+	opacity: 0.6;
+}
+.main2 .fitur .iconLove:hover {
+	opacity: 1;
+	transition: 0.2s;
+}
+.main2 .fitur .icon:hover {
+	background-color: #fff;
+	transition: 0.2s;
+}
+.main2 hr {
+	height: 1px;
+	border-top: 1px solid rgb(108, 108, 108);
+	width: 80%;
+	margin: 0 auto;
+}
+.playlist {
+	display: flex;
+	flex-direction: column;
+	/* background-color: #c4efd9; */
+	height: 350px;
+	overflow: scroll;
+}
+
+.list {
+	display: flex;
+	justify-content: flex-start;
+	/* padding: 10px 0; */
+}
+.list span {
+	padding-left: 25px;
+	font-size: 14px;
+	line-height: 32px;
+	color: rgb(108, 108, 108);
+	font-weight: 400;
+}
+.list span:hover {
+	color: #fff;
+	transition: 0.2s;
+}
