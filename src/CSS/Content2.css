@@ -1,80 +1,78 @@
 .mainBox {
-  background-color: transparent;
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
+	background-color: black;
+	width: 100%;
+	display: flex;
+	position: absolute;
+	top: 80px;
+	margin-left: 240px;
+	padding: 20px;
+	justify-content: center;
+	/* display: ; */
 }
 
 .box {
-  background-color: black;
-  width: 1125px;
+	background-color: black;
+	width: 1125px;
 }
 
 .fokus {
-  color: aliceblue;
-  width: 200px;
-  font-size: 24px;
+	color: aliceblue;
+	width: 200px;
+	font-size: 24px;
 }
 
 .tampilkan {
-  color: gray;
-  width: 200px;
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  font-family: ;
+	color: gray;
+	width: 200px;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	/* font-family: ; */
 }
 
 .ba1 {
-  background-color: aqua;
-  display: flex;
-  align-items: center;
+	background-color: aqua;
+	display: flex;
+	align-items: center;
 }
 .pembungkus4content {
-  width: 1125px;
-  display: flex;
-  gap: 24px;
-  background-color: grey;
-  /* padding-top: 50px; */
+	width: 1125px;
+	display: flex;
+	gap: 24px;
+	background-color: grey;
+	/* padding-top: 50px; */
 }
 #focusTitle {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .pembungkus4content2 {
-  width: 1125px;
-  display: flex;
-  gap: 24px;
-  background-color: grey;
+	width: 1125px;
+	display: flex;
+	gap: 24px;
+	background-color: grey;
 }
 
 .content1 {
-  width: 25%;
-  border-radius: 25px;
-  padding: 16px;
+	width: 25%;
+	border-radius: 25px;
+	padding: 16px;
 
-  background-color: rgb(26, 25, 25);
+	background-color: rgb(26, 25, 25);
 }
 
 .divImg {
-  background-color: darkgray;
-  height: 230px;
-  width: fit-content;
-}
-
-img {
-  width: 210px;
-  height: 210px;
-  border: 2px solid black;
-  border-radius: 10px;
+	background-color: darkgray;
+	height: 230px;
+	width: fit-content;
 }
 a {
-  background-color: rgb(66, 66, 66);
-  color: rgb(155, 155, 155);
+	background-color: rgb(66, 66, 66);
+	color: rgb(155, 155, 155);
 }
 
 p {
-  width: 210px;
-  background-color: black;
-  color: gray;
+	width: 210px;
+	background-color: black;
+	color: gray;
 }
