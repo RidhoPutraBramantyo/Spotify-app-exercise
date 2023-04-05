@@ -1,158 +1,159 @@
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
 }
 
 #nextButton {
-  color-scheme: black;
+	color-scheme: black;
+}
 .footer {
-  border: 1px solid;
-  padding: 0px 20px;
-  /* //topbottom leftright */
-  position: fixed;
-  width: 100%;
-  max-width: 100vw;
-  height: 130px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: black;
-  color: #ffffff;
-  font-size: 5em;
-  text-transform: uppercase;
-  position: fixed;
-  bottom: 0;
+	border: 1px solid;
+	padding: 0px 20px;
+	/* //topbottom leftright */
+	position: fixed;
+	width: 100%;
+	max-width: 100vw;
+	height: 130px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: black;
+	color: #ffffff;
+	font-size: 5em;
+	text-transform: uppercase;
+	position: fixed;
+	bottom: 0;
 }
 .play {
-  display: flex;
-  align-items: center;
-  width: 300px;
-  justify-content: center;
-  flex-direction: column;
-  gap: 10px;
+	display: flex;
+	align-items: center;
+	width: 300px;
+	justify-content: center;
+	flex-direction: column;
+	gap: 10px;
 }
 .time {
-  /* display: flex;
+	/* display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   /* text-align: center; */
 
-  width: 750px;
-  justify-content: row;
-  display: flex;
-  gap: 10px;
-  align-items: center;
+	width: 750px;
+	justify-content: row;
+	display: flex;
+	gap: 10px;
+	align-items: center;
 }
 .icon {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 
-  gap: 40px;
+	gap: 40px;
 }
 .progress {
-  /* background-color: white; */
-  width: 100%;
-  height: 30px;
+	/* background-color: white; */
+	width: 100%;
+	height: 30px;
 }
 
 .play-button {
-  width: 50px;
-  height: 50px;
+	width: 50px;
+	height: 50px;
 }
 .play-container {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .middle {
-  width: 50px;
-  display: flex;
-  justify-content: center;
+	width: 50px;
+	display: flex;
+	justify-content: center;
 }
 .simbol {
-  width: 50px;
-  height: 50px;
+	width: 50px;
+	height: 50px;
 }
 .simbol1 {
-  width: 40px;
-  height: 40px;
+	width: 40px;
+	height: 40px;
 }
 .simbol2 {
-  width: 25px;
-  height: 25px;
+	width: 25px;
+	height: 25px;
 }
 .rightside {
-  /* width: 50px; */
-  display: flex;
-  justify-content: center;
+	/* width: 50px; */
+	display: flex;
+	justify-content: center;
 }
 .right {
-  width: 30px;
-  height: 30px;
+	width: 30px;
+	height: 30px;
 }
 .leftSide {
-  width: 50px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
 }
 .leftSid {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  gap: 50px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	gap: 50px;
 }
 .album {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 .judulSong {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 .leftSymbol {
-  width: 30px;
-  height: 30px;
+	width: 30px;
+	height: 30px;
 }
 .volume {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
 }

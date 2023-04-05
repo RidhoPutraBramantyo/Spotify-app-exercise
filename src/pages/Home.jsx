@@ -1,6 +1,7 @@
 import Sidebar from "../components/sidebar";
 import Navbar from "../components/Navbar";
 import Content2 from "../components/Content2";
+import Footer from "../components/Footer";
 import { Center, Spinner } from "@chakra-ui/react";
 import { useState } from "react";
 
@@ -27,6 +28,7 @@ export default function HomePage() {
 					<Navbar />
 					<Sidebar />
 					<Content2 />
+					<Footer />
 				</>
 			)}
 		</>
