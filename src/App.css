@@ -39,4 +39,120 @@
 
 #nextButton {
   color-scheme: black;
+.footer {
+  border: 1px solid;
+  padding: 0px 20px;
+  /* //topbottom leftright */
+  position: fixed;
+  width: 100%;
+  max-width: 100vw;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  color: #ffffff;
+  font-size: 5em;
+  text-transform: uppercase;
+  position: fixed;
+  bottom: 0;
+}
+.play {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.time {
+  /* display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  /* text-align: center; */
+
+  width: 750px;
+  justify-content: row;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.icon {
+  display: flex;
+  align-items: center;
+
+  gap: 40px;
+}
+.progress {
+  /* background-color: white; */
+  width: 100%;
+  height: 30px;
+}
+
+.play-button {
+  width: 50px;
+  height: 50px;
+}
+.play-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.middle {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+}
+.simbol {
+  width: 50px;
+  height: 50px;
+}
+.simbol1 {
+  width: 40px;
+  height: 40px;
+}
+.simbol2 {
+  width: 25px;
+  height: 25px;
+}
+.rightside {
+  /* width: 50px; */
+  display: flex;
+  justify-content: center;
+}
+.right {
+  width: 30px;
+  height: 30px;
+}
+.leftSide {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.leftSid {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 50px;
+}
+.album {
+  display: flex;
+  justify-content: center;
+}
+.judulSong {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.leftSymbol {
+  width: 30px;
+  height: 30px;
+}
+.volume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
